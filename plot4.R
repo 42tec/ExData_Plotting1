@@ -34,7 +34,7 @@ lines(data$Datetime,data$Sub_metering_2,col="red")
 lines(data$Datetime,data$Sub_metering_3,col="blue")
 legend("topright",c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),bty="n",lty=c(1,1,1),col=c("black","red","blue"))
 
-#plot Global Active Power during the hours of the days 2007-02-01 and 2007-02-02
+#plot Global Reactive Power during the hours of the days 2007-02-01 and 2007-02-02
 plot(data$Datetime,data$Global_reactive_power,'l',xlab="datetime",ylab="Global_reactive_power")
 
 #close png device
